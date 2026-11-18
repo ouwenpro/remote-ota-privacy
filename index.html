@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for remote OTA on Android and iOS. 隐私政策：remote OTA 安卓及苹果应用。">
+  <title>remote OTA — Privacy Policy / 隐私政策</title>
+  <style>
+    :root{color-scheme:light;--ink:#183630;--muted:#52665f;--line:#dce5df;--accent:#00664c}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;background:#f5f8f5;color:var(--ink);font:17px/1.8 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:880px;margin:auto;padding:48px 24px 72px}header{border-bottom:1px solid var(--line);padding-bottom:24px}header p{color:var(--muted)}h1{font-size:clamp(28px,5vw,40px);line-height:1.25;margin:12px 0}h2{font-size:28px;margin:0 0 12px}h3{font-size:20px;line-height:1.5;margin:32px 0 8px}p,ul{margin:10px 0}a{color:var(--accent);text-underline-offset:4px;overflow-wrap:anywhere}a:focus-visible{outline:3px solid var(--accent);outline-offset:5px}nav{display:flex;gap:24px;flex-wrap:wrap;margin-top:20px}.policy{background:white;border:1px solid var(--line);border-radius:16px;padding:32px;margin-top:28px}.meta{color:var(--muted);font-size:15px}.summary{border-left:3px solid var(--accent);padding:12px 16px;background:#f0f7f2}footer{padding-top:24px;font-size:14px;color:var(--muted)}@media(max-width:560px){main{padding:28px 16px 48px}.policy{padding:24px 18px}body{font-size:16px}}@media print{body{background:white}main{max-width:none;padding:0}.policy{border:0;padding:0}nav{display:none}}
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="meta">SuteFoto · remote OTA</p>
+    <h1>Privacy Policy / 隐私政策</h1>
+    <p>For the remote OTA app on Android and iOS · 适用于安卓及 iOS 版 remote OTA</p>
+    <nav aria-label="Languages / 语言"><a href="#en">English</a><a href="#zh" lang="zh-Hans">简体中文</a></nav>
+  </header>
+  <article id="en" class="policy" lang="en">
+    <h2>Privacy Policy</h2>
+    <p class="meta">Effective and updated: 18 November 2026</p>
+    <p>This policy describes how remote OTA, provided by SuteFoto (深圳市速图影视器材有限公司), handles information. The app updates compatible camera remote controllers using a firmware file that you select. Android package: <strong>com.a1remote.ota</strong>. iOS bundle: <strong>com.owenp.remoteota</strong>.</p>
+    <p class="summary">No account is required. The app has no advertising, advertising ID use, analytics SDKs or cross-app tracking. Its local firmware-update workflow does not automatically upload your firmware files or device information to our servers.</p>
+    <h3>1. Information used to update your controller</h3>
+    <ul>
+      <li><strong>Nearby controller information:</strong> device names, Bluetooth addresses or system-assigned identifiers, signal strength, model, hardware and firmware versions, battery readings and update status. This is used to discover and connect to a controller, check compatibility and show update results.</li>
+      <li><strong>Connection information:</strong> the controller's Wi-Fi network name, password and session credentials are used to establish its local connection and transfer firmware.</li>
+      <li><strong>Selected firmware:</strong> the app reads the name and contents of the .ota file you choose, including its version and compatibility information. It checks and transfers the firmware to the selected controller. It does not search unrelated files or alter your original file.</li>
+      <li><strong>Local preferences:</strong> language, appearance, permission-request state and the last selected file's location or bookmark may be stored on your phone. Android stores the most recently submitted update's package identifier and target build to verify the controller's result. iOS stores a pending update checkpoint containing the controller identifier and target firmware information.</li>
+    </ul>
+    <p>Device and file information is processed locally on your phone and, as needed for the update, exchanged with your selected controller. The current app does not provide a diagnostic-record export feature or automatically upload diagnostic reports. The current iOS app does not retain an upgrade-history list.</p>
+    <h3>2. Permissions</h3>
+    <p><strong>Bluetooth and nearby devices</strong> are used to discover and communicate with controllers. <strong>Wi-Fi or local-network access</strong> is used to connect to the controller's hotspot and transfer firmware. On Android 6–12, the system may require <strong>location permission</strong> for Bluetooth or Wi-Fi discovery; the app does not use that permission to obtain GPS coordinates or track your movements. On newer Android versions, nearby-device permissions apply instead.</p>
+    <p><strong>File access</strong> is limited to the file you select through the system picker. The app does not request all-files access, contacts, camera, microphone or photo-library access. You can refuse or revoke permissions in system settings; the related connection or update functions may then be unavailable.</p>
+    <h3>3. Internet access and third parties</h3>
+    <p>The current local-update workflow does not download firmware from our servers. If you select a file from iCloud Drive or another cloud-file provider, that provider may download it under its own privacy policy. The operating system and app store may separately process installation, backup or diagnostic information according to their settings and policies.</p>
+    <p>This policy webpage is hosted on GitHub Pages. Visiting it sends normal web-request information, such as your IP address and browser information, to GitHub. GitHub processes that information under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Privacy Statement</a>. This webpage includes no analytics scripts, advertising, forms or embedded third-party media.</p>
+    <p>If you email us, we receive your email address and the information you choose to include. We use this to respond to your request; our email service provider also processes the message. Please do not include hotspot passwords or unnecessary personal information. We do not sell personal information or share it for cross-context behavioral advertising. Support information may be disclosed when required by law.</p>
+    <h3>4. Storage, retention and deletion</h3>
+    <p>Scan results and active connection information are held during use. Android creates a private temporary copy of imported firmware; it removes that copy when the selection is released or the update ends, and cleans up stale copies on a subsequent app start. iOS holds the loaded firmware in memory. These operations leave your original firmware file unchanged.</p>
+    <p>Local preferences and file-location hints remain until replaced or the app's data is deleted. Android update-result identifiers remain until a later submitted update replaces them or app data is cleared. The iOS pending checkpoint is removed when the app clears the pending result or app data is deleted. On Android, use system settings to clear the app's storage or uninstall it. On iOS, choose <strong>Delete App</strong>; <strong>Offload App</strong> preserves documents and data. Manage original firmware files separately in your file manager. Deleting app data does not undo a controller firmware update.</p>
+    <p>System backups or device transfers, where enabled and supported, are controlled by the operating system. Manage any existing backup copies separately. Support messages are retained only as needed to handle the request and meet applicable obligations; you can request deletion through the email below.</p>
+    <h3>5. Security and your choices</h3>
+    <p>We limit data access to the update functions described above and use the operating system's permission and app-storage protections. Firmware is transferred to the selected controller over its local connection. No storage or communication method can guarantee absolute security. Wait for an update to finish before revoking permissions, deleting data or turning off the controller.</p>
+    <p>You may contact us to request access to, correction of or deletion of personal information you have provided, or to exercise other rights available under your local law. We may need to verify your request. No account-deletion procedure is needed because the app has no accounts. We cannot remotely access or erase data held only on your phone.</p>
+    <h3>6. Children and changes</h3>
+    <p>The app is a controller-maintenance tool, not a service directed to children. We do not knowingly collect children's personal information through the app. A parent or guardian may contact us about information a child has sent to support.</p>
+    <p>Changes to this policy will be published here with a revised date. If data practices change materially, we will provide appropriate notice and obtain consent where required.</p>
+    <h3>7. Contact</h3>
+    <p>SuteFoto · 深圳市速图影视器材有限公司<br>Privacy and support: <a href="mailto:yezuojian79@gmail.com">yezuojian79@gmail.com</a></p>
+  </article>
+  <article id="zh" class="policy" lang="zh-Hans">
+    <h2>隐私政策</h2>
+    <p class="meta">生效及更新日期：2026年11月18日</p>
+    <p>本政策说明 SuteFoto（深圳市速图影视器材有限公司）提供的 remote OTA 如何处理信息。本应用使用您选择的固件文件，为兼容的相机遥控器升级固件。安卓软件包名称：<strong>com.a1remote.ota</strong>；iOS 标识：<strong>com.owenp.remoteota</strong>。</p>
+    <p class="summary">应用无需注册账号，不含广告，不使用广告 ID、统计分析 SDK 或跨应用跟踪。本地固件升级流程不会自动向我们的服务器上传固件文件或设备信息。</p>
+    <h3>一、升级过程中使用的信息</h3>
+    <ul>
+      <li><strong>附近遥控器信息：</strong>设备名称、蓝牙地址或系统分配的标识、信号强度、型号、硬件和固件版本、电量及升级状态，用于发现与连接设备、校验兼容性和显示升级结果。</li>
+      <li><strong>连接信息：</strong>遥控器的 Wi-Fi 网络名称、密码及会话凭据，用于建立本地连接和传输固件。</li>
+      <li><strong>所选固件：</strong>读取您选择的 .ota 文件名称与内容，包括版本和兼容性信息，进行校验并向所选遥控器传输固件；不搜索无关文件，也不修改原文件。</li>
+      <li><strong>本地偏好：</strong>语言、外观、权限申请状态、上次所选文件的位置或访问书签可能保存在手机中。安卓还保存待确认升级的包标识与目标构建号，以核实设备升级结果。</li>
+    </ul>
+    <p>设备和文件信息在手机本地处理，并按升级需要与您选择的遥控器交换。当前应用不提供诊断记录导出功能，也不会自动上传诊断报告；当前 iOS 版不保留升级历史列表。</p>
+    <h3>二、权限用途</h3>
+    <p><strong>蓝牙及附近设备权限</strong>用于发现遥控器和通信；<strong>Wi-Fi 或本地网络权限</strong>用于连接遥控器热点并传输固件。在 Android 6–12 上，系统可能要求<strong>位置权限</strong>才能搜索蓝牙或 Wi-Fi 设备；应用不使用该权限获取 GPS 坐标或跟踪您的行踪。较新安卓版本改用附近设备权限。</p>
+    <p><strong>文件访问</strong>限于通过系统文件选择器选中的文件。应用不申请全部文件访问、通讯录、相机、麦克风或相册访问权限。您可拒绝授权或在系统设置中撤销权限，相关连接或升级功能可能因此无法使用。</p>
+    <h3>三、联网与第三方</h3>
+    <p>当前本地升级流程不从我们的服务器下载固件。如果您从 iCloud 云盘或其他云端文件提供方选择文件，该提供方可能依据自身隐私政策下载文件。操作系统和应用商店可能根据各自设置与政策，单独处理安装、备份或诊断信息。</p>
+    <p>本隐私政策网页由 GitHub Pages 托管。访问时，IP 地址、浏览器信息等正常网络请求信息会发送给 GitHub，并按其<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">隐私声明</a>处理。本网页不含统计脚本、广告、表单或第三方嵌入媒体。</p>
+    <p>您主动发送邮件时，我们会收到邮箱地址及您提供的内容，用于回复和处理请求；邮件服务提供方也会处理邮件。请勿发送热点密码或不必要的个人信息。我们不出售个人信息，也不将其共享用于跨情境行为广告。依法要求时，可能披露支持沟通信息。</p>
+    <h3>四、保存期限与删除</h3>
+    <p>扫描结果及当前连接信息在使用期间保留。安卓会为导入的固件创建应用私有临时副本，在释放选择或升级结束时删除，并在后续启动时清理遗留副本；iOS 将已加载固件保存在内存中。这些操作不会修改固件原文件。</p>
+    <p>本地偏好与文件位置提示保留至被替换或应用数据被删除。安卓待确认升级信息在成功确认或清除应用数据后删除。安卓可通过系统设置清除应用存储或卸载应用；iOS 请使用<strong>“删除 App”</strong>，<strong>“卸载 App”</strong>会保留文稿与数据。固件原文件需在文件管理器中另行管理。删除应用数据不会回退遥控器固件。</p>
+    <p>系统备份或设备迁移如已启用且受系统支持，由操作系统控制；已有备份副本需单独管理。支持邮件仅在处理请求和履行适用义务所需期间保留，您可通过下方邮箱申请删除。</p>
+    <h3>五、安全与您的选择</h3>
+    <p>我们将数据访问限于上述升级功能，并使用系统权限及应用存储保护机制。固件通过本地连接传输至所选遥控器；任何存储或通信方式都无法保证绝对安全。请等待升级完成后，再撤销权限、删除数据或关闭遥控器。</p>
+    <p>您可联系我们申请查阅、更正、删除主动提供的个人信息，或行使适用法律赋予的其他权利。我们可能需要核实您的请求。应用没有账号，无需办理账号注销；我们无法远程访问或删除仅保存在您手机上的数据。</p>
+    <h3>六、儿童与政策更新</h3>
+    <p>本应用是遥控器维护工具，并非面向儿童的服务。我们不会通过应用主动收集儿童个人信息。监护人如发现儿童向支持邮箱提供了信息，可联系我们处理。</p>
+    <p>政策变化会在本页公布并更新日期。如数据处理方式发生重大变化，我们会提供适当通知，并在需要时取得同意。</p>
+    <h3>七、联系我们</h3>
+    <p>SuteFoto · 深圳市速图影视器材有限公司<br>隐私与技术支持：<a href="mailto:yezuojian79@gmail.com">yezuojian79@gmail.com</a></p>
+  </article>
+  <footer>remote OTA · <a href="#en">English</a> · <a href="#zh" lang="zh-Hans">简体中文</a></footer>
+</main>
+</body>
+</html>
